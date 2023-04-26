@@ -3,7 +3,7 @@ import wave from '../../asset/waves.png'
 function Footer() {
   return (
     <div className='' >
-    <img className='h-[40vh]' src={wave} alt="" />
+    <img className='md:h-[40vh] h-[20vh]' src={wave} alt="" />
     </div>
   )
 }

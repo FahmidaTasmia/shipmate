@@ -172,7 +172,7 @@ function Value() {
         <div className='border-l-2 px-3'>
             <p className='text-black font-bold'>$ 3,982<span className='text-xs mt-4'>.63</span></p>
             <button className='w-[101px] bg-[#6F57E9] rounded-[14px] h-[39px] text-white my-[10px]'>Select</button>
-            <p><Link className='text-sm underline '>View details</Link></p>
+            <p><Link to='/checkout' className='text-sm underline '>View details</Link></p>
         </div>
       
         </div>

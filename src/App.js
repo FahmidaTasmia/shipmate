@@ -5,9 +5,11 @@ import router from './Router/Routs';
 
 function App() {
   return (
-    <div className='max-w-[1440px] mx-auto bg-[#F8F9FD]' >
+    <div className='bg-[#F8F9FD]'>
+      <div className=' ' >
     <RouterProvider router={router}></RouterProvider>
    </div>
+    </div>
   );
 }
 

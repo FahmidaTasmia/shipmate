@@ -3,9 +3,10 @@ import { RiLuggageDepositLine } from "react-icons/ri";
 import { GiCommercialAirplane,GiWeightScale } from "react-icons/gi";
 import img from '../../asset/seller.png'
 import img2 from '../../asset/xcover.png'
+import { BsStarFill } from 'react-icons/bs';
 function Cart() {
   return (
-    <div className='grid lg:grid-cols-2 gap-8 mt-[80px]'>
+    <div className='flex  gap-8 mt-[80px]'>
       <div className='w-[907px]'>
         <div className='bg-white shadow-2xl rounded-[14px] py-5 px-3 mx-5'>
         <p className='text-start font-bold text-black mb-4'>Booking Summary</p>
@@ -77,8 +78,52 @@ function Cart() {
             </div>
         </div>
       </div>
-      <div className='w-1/4'>
+      <div className='w-[366px] bg-white shadow-2xl rounded-[14px]'>
+        <div className='flex gap-8 my-8 justify-center'>
+            <p className='font-bold self-center'>Price details</p>
+            <p className='flex bg-[#E5E6E6] p-3 gap-2 rounded-[23px]'><BsStarFill className='self-center'></BsStarFill>Known shipper</p>
+        </div>
+        <div className='flex  justify-between mx-8 mb-5'>
+            <p>Seller’s Quote</p>
+            <p>$ 3,659.25</p>
+        </div>
+        <div>
+            <p className='border-2 mx-5 my-8'></p>
+        </div>
 
+        <div className='flex  justify-between mx-8 mb-2 mt-5'>
+            <p>Duties and taxes</p>
+            <p>Not Included</p>
+        </div>
+        <div className='flex  justify-between mx-8 mb-2'>
+            <p>Insurance</p>
+            <p>$323.40</p>
+        </div>
+        <div className='flex  justify-between mx-8 mb-2'>
+            <p>Based on the items cost</p>
+           
+        </div>
+        <div>
+            <p className='border-2 mx-5 my-8'></p>
+        </div>
+        <div className='flex  justify-between mx-8 mb-2'>
+            <p>Add a promo code</p>
+           
+        </div>
+        <div className='flex  justify-between mx-8 mb-2'>
+            <p>Platform fee</p>
+            <p>$119.48</p>
+        </div>
+        <div>
+            <p className='border-2 mx-5 my-8'></p>
+        </div>
+        <div className='flex  justify-between mx-8 mb-2 font-bold text-xl'>
+            <p>Total:</p>
+            <p>$ 4,102.13</p>
+        </div>
+        <div className='text-center mt-6'>
+            <button className='bg-[#9747FF] w-[276px] h-[47px] text-white rounded-[14px]'>Checkout</button>
+        </div>
       </div>
     </div>
   )

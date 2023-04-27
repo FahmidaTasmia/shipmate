@@ -55,7 +55,7 @@ function Origin() {
         </div>
         <div className='flex '>
         <p className='border-l-2 pl-2 my-8'></p>
-            <Link to='/booking' className='btn self-center border border-[#9747FF] hover:bg-transparent hover:text-[#9747FF] btn-sm  hover:border-[#9747FF] bg-[#9747FF]'><TfiPencilAlt2 className='font-bold '></TfiPencilAlt2></Link>
+            <Link to='/checkout' className='btn self-center border border-[#9747FF] hover:bg-transparent hover:text-[#9747FF] btn-sm  hover:border-[#9747FF] bg-[#9747FF]'><TfiPencilAlt2 className='font-bold '></TfiPencilAlt2></Link>
         </div>
         </div>
      </div>

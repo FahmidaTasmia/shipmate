@@ -1,4 +1,5 @@
 import Booking from "../components/Booking/Booking";
+import Checkout from "../components/Checkout/Checkout";
 
 const { createBrowserRouter } = require("react-router-dom");
 const { default: Main } = require("../Layout/Main");
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
             {
                 path:'/booking',
                 element:<Booking></Booking>
+            },
+            {
+                path:'/checkout',
+                element:<Checkout></Checkout>
             },
         ]
     }

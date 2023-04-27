@@ -55,7 +55,7 @@ function Value() {
         <div className='border-l-2 px-3'>
             <p className='text-black font-bold'>$ 3,982<span className='text-xs mt-4'>.63</span></p>
             <button className='w-[101px] bg-[#6F57E9] rounded-[14px] h-[39px] text-white my-[10px]'>Select</button>
-            <p><Link className='text-sm underline '>View details</Link></p>
+            <p><Link to='/checkout' className='text-sm underline '>View details</Link></p>
         </div>
       
         </div>
@@ -94,7 +94,7 @@ function Value() {
         <div className='border-l-2 px-3'>
             <p className='text-black font-bold'>$ 3,982<span className='text-xs mt-4'>.63</span></p>
             <button className='w-[101px] bg-[#6F57E9] rounded-[14px] h-[39px] text-white my-[10px]'>Select</button>
-            <p><Link className='text-sm underline '>View details</Link></p>
+            <p><Link to='/checkout' className='text-sm underline '>View details</Link></p>
         </div>
       
         </div>
@@ -133,7 +133,7 @@ function Value() {
         <div className='border-l-2 px-3'>
             <p className='text-black font-bold'>$ 3,982<span className='text-xs mt-4'>.63</span></p>
             <button className='w-[101px] bg-[#6F57E9] rounded-[14px] h-[39px] text-white my-[10px]'>Select</button>
-            <p><Link className='text-sm underline '>View details</Link></p>
+            <p><Link to='/checkout' className='text-sm underline '>View details</Link></p>
         </div>
       
         </div>
@@ -179,7 +179,7 @@ function Value() {
       </div>
       <div className='w-1/6 '>
       <div className='flex justify-end'>
-        <Link className='text-xl  rounded-full bg-[#6F57E9] border border-[#6F57E9] hover:bg-transparent hover:border-[#6F57E9] btn btn-circle relative  top-[500px] m-auto  '><BsChatLeftDots className='hover:text-[#6F57E9] text-white'></BsChatLeftDots></Link>
+        <Link to='/checkout' className='text-xl  rounded-full bg-[#6F57E9] border border-[#6F57E9] hover:bg-transparent hover:border-[#6F57E9] btn btn-circle relative  top-[500px] m-auto  '><BsChatLeftDots className='hover:text-[#6F57E9] text-white'></BsChatLeftDots></Link>
       </div>
       </div>
     </div>

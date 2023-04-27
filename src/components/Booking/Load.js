@@ -13,20 +13,30 @@ function Load() {
 
       <div className='md:flex gap-3 grid grid-cols-2 m-auto'>
       <div className='flex gap-3'>
-        <p className='btn btn-circle bg-[#D3B0FF] border-none p-3 '>1</p>
+        <div>
+          <p className='btn btn-circle bg-[#D3B0FF] border-none p-3 '>1</p>
+          <p className='mt-2 text-xs'>Search</p>
+        </div>
         <p className='w-[131px] h-[3px] bg-[#D3B0FF] self-center ' ></p>
       </div>
       <div className='flex gap-3'>
-        <p className='btn btn-circle bg-[#D3B0FF] border-none p-3 '>2</p>
+      <div>
+          <p className='btn btn-circle bg-[#D3B0FF] border-none p-3 '>2</p>
+          <p className='mt-2 text-xs'>Recommended services</p>
+        </div>
         <p className='w-[131px] h-[3px] bg-[#D3B0FF] self-center ' ></p>
       </div>
       <div className='flex gap-3'>
-        <p className='btn btn-circle bg-[#D3B0FF] border-none p-3 '>3</p>
+      <div>
+          <p className='btn btn-circle bg-[#D3B0FF] border-none p-3 '>3</p>
+          <p className='mt-2 text-xs'>Results</p>
+        </div>
         <p className='w-[131px] h-[3px] bg-[#D3B0FF] self-center ' ></p>
       </div>
       <div>
-      <p className='btn btn-circle  border-none p-3 hover:bg-[#D3B0FF] '></p>
-      </div>
+          <p className='btn btn-circle bg-[#868686]  border-none p-3 '></p>
+          <p className='mt-2 text-xs'>Booking</p>
+        </div>
       </div>
     </div>
    </div>

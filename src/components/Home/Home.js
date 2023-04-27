@@ -34,7 +34,8 @@ function Home() {
             <p className='self-center '>Load</p>
         </div>
         <div className='flex'>
-            <Link to='/' className='btn self-center border border-[#9747FF] hover:bg-transparent hover:text-[#9747FF] btn-sm  hover:border-[#9747FF] bg-[#9747FF]'><BsArrowRight className='font-bold '></BsArrowRight></Link>
+          <p className='border-l-2 pl-2 my-8'></p>
+            <Link to='/booking' className='btn self-center border border-[#9747FF] hover:bg-transparent hover:text-[#9747FF] btn-sm  hover:border-[#9747FF] bg-[#9747FF]'><BsArrowRight className='font-bold '></BsArrowRight></Link>
         </div>
       </div>
      </div>
@@ -58,7 +59,8 @@ function Home() {
             <p className='self-center '>Load</p>
         </div>
         <div className='flex '>
-            <Link to='/' className='btn self-center border border-[#9747FF] hover:bg-transparent hover:text-[#9747FF] btn-sm  hover:border-[#9747FF] bg-[#9747FF]'><BsArrowRight className='font-bold '></BsArrowRight></Link>
+        <p className='border-l-2 pl-2 my-8'></p>
+            <Link to='/booking' className='btn self-center border border-[#9747FF] hover:bg-transparent hover:text-[#9747FF] btn-sm  hover:border-[#9747FF] bg-[#9747FF]'><BsArrowRight className='font-bold '></BsArrowRight></Link>
         </div>
         </div>
      </div>
